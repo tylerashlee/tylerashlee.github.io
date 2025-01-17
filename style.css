@@ -1,0 +1,57 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+    color: #001F3F;
+  }
+  
+  header {
+    background-color: #001F3F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #FFD1DC;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    text-align: center;
+  }
+
+  .profile-pic {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  #introduction {
+    background-color: #FFD1DC; /* Light pink background */
+    color: #001F3F; /* Navy text */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+
+  h2 {
+    color: #001F3F;
+    border-bottom: 2px solid #FFD1DC;
+  }
+  
+  button {
+    background-color: #FFD1DC;
+    color: #001F3F;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
